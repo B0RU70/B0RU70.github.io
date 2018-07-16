@@ -1,9 +1,9 @@
 body { 
-    background-image: url('https://i.resimyukle.xyz/A70S5K.gif');
+    background-image: url('A70S5K.gif');
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
-    color: #010100;
+    color: #ffffff;
     font-family: 'Share Tech Mono';
 }
 .bground {
@@ -36,7 +36,7 @@ text-align: center;
   text-align: center;
 } 
 a {
-    color:#010100;
+    color:#ffffff;
     text-decoration:none;
 }
 .barlink {
