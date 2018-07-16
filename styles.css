@@ -1,20 +1,3 @@
-body { 
-    background-image: url('A70S5K.gif');
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: center;
-    color: #ffffff;
-    font-family: 'Share Tech Mono';
-}
-.bground {
-    background-color: rgba(0, 30, 38, 0.7);
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 h1 {
   font-family: 'Fredoka One';
   text-align: center;
