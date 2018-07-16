@@ -3,7 +3,7 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
-    color: #27f6a4;
+    color: #010100;
     font-family: 'Share Tech Mono';
 }
 .bground {
@@ -36,7 +36,7 @@ text-align: center;
   text-align: center;
 } 
 a {
-    color:#27f6a4;
+    color:#010100;
     text-decoration:none;
 }
 .barlink {
