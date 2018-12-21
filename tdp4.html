@@ -1,0 +1,52 @@
+<script type="text/javascript">
+			var hide = true;
+			
+			function hideFlash() {
+				if(hide){
+					$("#showFlashBtn").show();
+				}else{
+					$("#showFlashBtn").hide();
+				}
+				var hiddenFlash;
+				hiddenFlash = $("object,embed");
+				if (hide) {
+					hiddenFlash.css("margin-left", "-999999px");
+					hiddenFlash.css("margin-top", "-1000px");
+				} else if (hiddenFlash != null) {
+					hiddenFlash.css("margin-left", "0px");
+					hiddenFlash.css("margin-top", "0px");
+					hiddenFlash = null;
+				}
+				hide = !hide;
+			}
+			
+			function parseGetParams() { 
+				var $_GET = {}; 
+				var __GET = window.location.search.substring(1).split("&"); 
+				for(var i=0; i<__GET.length; i++) { 
+					var getVar = __GET[i].split("="); 
+					$_GET[getVar[0]] = typeof(getVar[1])=="undefined" ? "" : getVar[1];
+				} 
+				return $_GET; 
+			} 
+			
+			var vars = parseGetParams();
+			vars.configURL = "http://cdn.darkness-project.com/tdp4/config/config.xml";
+			vars.useG2S = true
+			
+			var params = {
+				quality:"high", 
+				menu:"false", 
+				allowScriptAccess:"always",
+				allowFullscreen:"true",
+				allowFullscreenInteractive:"true",
+				wmode:"window",
+				bgcolor:'#000000'
+			};
+			var attributes = {name:"tdp"};
+			
+			swfobject.embedSWF("http://cdn.darkness-project.com/tdp4/preloaders/Preloader.swf?v=3", 
+				"tdp", "800", "524", "9.0.128", "expressInstall.swf", 
+				vars, params, attributes);
+		</script>
+    <link rel="stylesheet" href="http://adblockers.opera-mini.net/css_block/default-domainless.css" type="text/css" />
