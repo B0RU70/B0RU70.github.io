@@ -1,5 +1,106 @@
-<!-- OYUN H ilesi icin sayfa -->
-<script type="text/javascript">
+
+<html>
+	<style type="text/css"> 
+		body { 
+				background: url(/tdp4/assets/main_bg.jpg) center top no-repeat;
+				background-position: center -160px;
+				background-color:#000000;
+				margin: 45px 20px 0px 20px;
+				text-align:center;
+		}
+                #tdp {
+                        width: 800px; 
+                        height: 524px;
+                        margin-top: 20px;
+                        margin-left: auto ;
+                        margin-right: auto ;
+                }
+                
+                #applifier_bar {
+                        margin-top: 10px;
+                        margin-left: auto ;
+                        margin-right: auto ;
+                }
+		#showFlashBtn a:link {
+			text-decoration: none;
+			font-size: x-large;
+			font-family: "Arial";
+			color: #375B7D;
+		}
+		#showFlashBtn a:visited {
+			text-decoration: none;
+			font-size: x-large;
+			font-family: "Arial";
+			color: #375B7D;
+		}
+		#showFlashBtn a:hover {
+			text-decoration: none;
+			font-size: x-large;
+			font-family: "Arial";
+			color: #4878A4;
+		}
+		#showFlashBtn a:active {
+			text-decoration: none;
+			font-size: x-large;
+			font-family: "Arial";
+			color: #4878A4;
+		}
+	</style>
+	<title>TDP4: Team Battle</title>
+	
+	<head>  
+		<meta name="keywords" content="real-time, multiplayer, shooter, online, bloody, battle, team, kill, weapon, gun, grenade, RPG, MMORPG, rating, exp, tournament, leader, mutant, cyborg, robot, free" /> 
+		<meta name="description" content="The bloody battle for survival among 3 races.
+		    There are 3 types of battles: Deathmatch, Team Deathmatch and Capture The Flag.
+		    In Deathmatch you will play against everybody. Kill everyone and get experience and coins to buy new powerful weapons or items.
+		    In Team Deathmatch you can choose either to play in red or blue team. You will get experience and coins by killing enemies like in Deathmatch.
+		    Also you will receive team points by killing enemies from other team.
+		    In Capture The Flag your team will get flag-points for capturing enemy flag and delivering it to your base.
+		    Once your level is increased, you'll be able to increase your avatar's skills to be more dangerous and invulnerable.
+		    Weapons are also require some skills such as accuracy, strength and explosions.
+		    You can receive medals for completing different achievements. You will get extra cash for each medal of for every 250 frags in the room.
+		    Cash is needed to buy some powerful weapons and artefacts which cannot be bought only for coins.
+		    Report you feedback, bugs, feature requests and etc. in Support section.
+		    Have a fun playtime!" />
+		     
+	    	<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		    _gaq.push(['_setAccount', 'UA-2462091-3']);
+		      _gaq.push(['_trackPageview']);
+		      
+		        (function() {
+		            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		      })();
+		                      
+	        </script>
+	
+	<!-- CSS_ADSBLOCK_START -->
+<link rel="stylesheet" href="http://adblockers.opera-mini.net/css_block/default-domainless.css" type="text/css" />
+<!-- CSS_ADSBLOCK_END -->
+</head>
+	<body>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+		<script src="http://cdn.darkness-project.com/js/opensocial-jquery.js" type="text/javascript"></script>
+                
+                <div id="tdp">
+                        <h1>tdp5</h1>
+                        <p>Alternative content</p>
+                        <p><a href="http://www.adobe.com/go/getflashplayer"><img 
+                                src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" 
+                                alt="Get Adobe Flash player" /></a></p>
+                </div>
+		
+	
+		<div id="applifier_bar">
+			<br/>
+			<a href="https://play.google.com/store/apps/details?id=com.stickman.multiplayer.shooter&referrer=utm_source%3DTDP4" target="_blank" margin="5"><img src="https://darkness-project.com/pics/banner/800x100-en.png"/></a>
+				<div>
+	
+				</div>
+		<script type="text/javascript">
 			var hide = true;
 			
 			function hideFlash() {
@@ -32,7 +133,7 @@
 			} 
 			
 			var vars = parseGetParams();
-			vars.configURL = "https://cdn.darkness-project.com/tdp4/config/config.xml";
+			vars.configURL = "http://cdn.darkness-project.com/tdp4/config/config.xml";
 			vars.useG2S = true
 			
 			var params = {
@@ -46,9 +147,9 @@
 			};
 			var attributes = {name:"tdp"};
 			
-			swfobject.embedSWF("https://cdn.darkness-project.com/tdp4/preloaders/Preloader.swf?v=3", 
+			swfobject.embedSWF("http://cdn.darkness-project.com/tdp4/preloaders/Preloader.swf?v=3", 
 				"tdp", "800", "524", "9.0.128", "expressInstall.swf", 
 				vars, params, attributes);
-	
 		</script>
-    <link rel="stylesheet" href="http://adblockers.opera-mini.net/css_block/default-domainless.css" type="text/css" />
+	</body>
+</html>
