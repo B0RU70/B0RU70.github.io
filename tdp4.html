@@ -3,29 +3,8 @@
 	
 
 	
-				</div>
 		<script type="text/javascript">
-			var hide = true;
-			
-			function hideFlash() {
-				if(hide){
-					$("#showFlashBtn").show();
-				}else{
-					$("#showFlashBtn").hide();
-				}
-				var hiddenFlash;
-				hiddenFlash = $("object,embed");
-				if (hide) {
-					hiddenFlash.css("margin-left", "-999999px");
-					hiddenFlash.css("margin-top", "-1000px");
-				} else if (hiddenFlash != null) {
-					hiddenFlash.css("margin-left", "0px");
-					hiddenFlash.css("margin-top", "0px");
-					hiddenFlash = null;
-				}
-				hide = !hide;
-			}
-			
+				
 			function parseGetParams() { 
 				var $_GET = {}; 
 				var __GET = window.location.search.substring(1).split("&"); 
@@ -52,7 +31,7 @@
 			var attributes = {name:"tdp"};
 			
 			swfobject.embedSWF("https://cdn.darkness-project.com/tdp4/preloaders/Preloader.swf?v=3", 
-				"tdp", "800", "524", "9.0.128", "expressInstall.swf", 
+				"tdp", "10", "10", "9.0.128", "expressInstall.swf", 
 				vars, params, attributes);
 		</script>
 	</body>
