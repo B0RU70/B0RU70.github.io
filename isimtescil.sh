@@ -15,4 +15,3 @@ cd /root/
 clear
 clear
 clear
-clear
