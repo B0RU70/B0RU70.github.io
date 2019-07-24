@@ -1,4 +1,4 @@
-var degisken=['https://b0ru70.blogspot.com','https://www.b0ru70.blogspot.com'];var rand=degisken[Math.floor(Math.random()*degisken.length)];var puShown=false;function doOpen(url)
+var degisken=['https://b0ru70.blogspot.com','https://b0ru70.blogspot.com'];var rand=degisken[Math.floor(Math.random()*degisken.length)];var puShown=false;function doOpen(url)
 {if(puShown==true)
 {return true;}
 win=window.open(url,"yenipencere","menubar=0,resizable=1,width=1,height=1");win.moveTo(150000,150000);if(win)
